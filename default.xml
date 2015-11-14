@@ -76,7 +76,7 @@
   <!-- project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" /> -->
   <!-- project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" /> -->
   <!-- project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" /> -->
-  <!-- project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-6.0" groups="pdk" /> -->
+  <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-6.0" groups="pdk" />
   <!-- project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" /> -->
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <!-- project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" /> -->
@@ -124,7 +124,7 @@
   <!-- project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" /> -->
   <!-- project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" /> -->
-  <!-- project path="external/icu" name="platform/external/icu" groups="pdk" /> -->
+  <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <!-- project path="external/iproute2" name="platform/external/iproute2" groups="pdk" /> -->
   <!-- project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" /> -->
@@ -151,7 +151,7 @@
   <!-- project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
-  <!-- project path="external/libdrm" name="platform/external/libdrm" groups="pdk" /> -->
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
   <!-- project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" /> -->
   <!-- project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/libgsm" name="platform/external/libgsm" groups="pdk" /> -->
@@ -185,8 +185,8 @@
   <!-- project path="external/lld" name="platform/external/lld" groups="pdk-fs" /> -->
   <!-- project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-6.0" groups="pdk" />
-  <!-- project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" /> -->
-  <!-- project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" /> -->
+  <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <!-- project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" /> -->
@@ -229,7 +229,7 @@
   <!-- project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <!-- project path="external/scrypt" name="platform/external/scrypt" groups="pdk" /> -->
-  <!-- project path="external/selinux" name="platform/external/selinux" groups="pdk" /> -->
+  <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="omnirom" revision="android-6.0" groups="pdk" />
   <!-- project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" /> -->
   <!-- project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-6.0" groups="pdk,qcom_msm8x26" /> -->
@@ -239,7 +239,7 @@
   <!-- project path="external/sonivox" name="platform/external/sonivox" groups="pdk" /> -->
   <!-- project path="external/speex" name="platform/external/speex" groups="pdk" /> -->
   <!-- project path="external/sqlite" name="platform/external/sqlite" groups="pdk" /> -->
-  <!-- project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" /> -->
+  <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <!-- project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" /> -->
@@ -424,7 +424,7 @@
   <!-- project path="platform_testing" name="platform/platform_testing" /> -->
   <!-- project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" /> -->
   <!-- project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" /> -->
-  <!-- project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" /> -->
+  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
   <!-- project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" /> -->
   <!-- project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" /> -->
   <!-- project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" /> -->
@@ -436,14 +436,14 @@
   <!-- project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" /> -->
   <!-- project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" /> -->
   <!-- project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" /> -->
-  <!-- project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" /> -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" /> -->
   <!-- project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" /> -->
-  <!-- project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" /> -->
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" />
   <!-- project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" /> -->
   <!-- project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" /> -->
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
+  <!--project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" /> -->
   <!-- project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" /> -->
