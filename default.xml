@@ -95,7 +95,7 @@
   <!-- project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/eigen" name="platform/external/eigen" groups="pdk" /> -->
-  <!-- project path="external/elfutils" name="platform/external/elfutils" groups="pdk" /> -->
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <!-- project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" /> -->
