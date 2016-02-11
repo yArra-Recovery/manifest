@@ -15,6 +15,10 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
+  <remote  name="TeamWin"
+           review="gerrit.twrp.me"
+           fetch="https://github.com/TeamWin" />
+
   <default revision="refs/tags/android-6.0.1_r13"
            remote="aosp"
            sync-c="true"
