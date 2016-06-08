@@ -19,7 +19,7 @@
            review="gerrit.twrp.me"
            fetch="https://github.com/TeamWin" />
 
-  <default revision="refs/tags/android-6.0.1_r43"
+  <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
