@@ -35,6 +35,9 @@
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-7.1" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-7.1" />
 
+  <!-- Include TWRP extras -->
+  <include name="twrp-extras.xml" />
+
   <!-- LAST: Remove unused/forked Projects for minimal TWRP -->
   <include name="remove-minimal.xml" />
 

@@ -110,7 +110,6 @@
   <remove-project name="platform/external/avahi" />
   <remove-project name="platform/external/blktrace" />
   <remove-project name="platform/external/bsdiff" />
-  <remove-project name="platform/external/bzip2" />
   <remove-project name="platform/external/c-ares" />
   <remove-project name="platform/external/caliper" />
   <remove-project name="platform/external/cblas" />
