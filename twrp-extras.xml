@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="yArra"
+            fetch="https://github.com/yArra-Recovery" />
 
-<!-- TWRP lives in omnirom android-8.0 (not AOSP!) -->
-    <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.1" />
-
+<!-- TWRP lives in TeamWin android-9.0 (not AOSP!) -->
+    <remove-project name="platform/bootable/recovery"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="yArra" revision="android-9.0"/>
 
 <!-- FBE libs (using AOSP tag android-8.0.0_r34) -->
     <!-- libkeymaster1.so -> libkeymaster_portable.so and libkeymaster_staging.so -->
