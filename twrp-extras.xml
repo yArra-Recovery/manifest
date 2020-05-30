@@ -3,14 +3,17 @@
     <remote name="TeamWin"
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
+			
+    <remote name="yArra"
+            fetch="https://github.com/yArra-Recovery" />
 
 <!-- Use TeamWin repos as Omni doesn't accept any updates for recovery purposes -->
   <!-- TODO: Create vendor/twrp repo to replace this repo -->
   <project path="vendor/omni" name="android_vendor_omni" remote="TeamWin" revision="android-8.1" />
 
-<!-- TWRP lives in TeamWin repo, not AOSP -->
-    <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
+<!-- TWRP lives in TeamWin android-9.0 (not AOSP!) -->
+    <remove-project name="platform/bootable/recovery"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="yArra" revision="android-9.0"/>
 
 <!-- The following directories are actually needed from android_frameworks_base (for FBE decryption)
      * frameworks/base/core/java/android/content   (~4MB)
